@@ -1,0 +1,16 @@
+/* Estilos para el scrollbar */
+/* Estilo para navegadores WebKit (Safari, Chrome, etc.) */
+::-webkit-scrollbar {
+    width: 10px; /* ancho del scrollbar */
+}
+
+/* Estilo para el track (la barra en sí misma) */
+::-webkit-scrollbar-track {
+    background-color: transparent; /* color de fondo transparente */
+}
+
+/* Estilo para el thumb (el "agarre" del scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* color semi-transparente del thumb */
+    border-radius: 50px; /* esquinas redondeadas */
+}
