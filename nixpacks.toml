@@ -1,0 +1,2 @@
+[phases.setup]
+runtime = "php82"  # Especifica la versión de PHP
